@@ -196,7 +196,7 @@ function Betting({ selectedCard }) {
           <div class="row gy-5">
             <div class="col-xl-6">
               <h2 class="section-header__title" style={{ fontSize: "25px" }}>
-                CHOOSE BETTING AMOUNT IN CST COIN
+                CHOOSE BETTING AMOUNT IN CST Token
               </h2>
               <div class="custom--card card--lg">
                 <div class="card--body">
