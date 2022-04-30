@@ -1539,6 +1539,7 @@ i {
 
 .banner-content__title {
   margin-bottom: 15px;
+  font-family: "Font Awesome 5 Free";
 }
 
 @media (max-width: 1399px) {
@@ -1574,11 +1575,13 @@ i {
   font-size: 22px;
   max-width: 550px;
   color: white;
+  font-family: "Font Awesome 5 Free";
 }
 
 @media (max-width: 1199px) {
   .banner-content__subtitle {
     font-size: 22px;
+    font-family: "Font Awesome 5 Free";
   }
 }
 
@@ -1591,12 +1594,14 @@ i {
 @media (max-width: 767px) {
   .banner-content__subtitle {
     font-size: 20px;
+    font-family: "Font Awesome 5 Free";
   }
 }
 
 @media (max-width: 450px) {
   .banner-content__subtitle {
     font-size: 18px;
+    font-family: "Font Awesome 5 Free";
   }
 }
 
@@ -4533,12 +4538,14 @@ iframe {
   display: inline-block;
   color: #fff;
   margin-bottom: 15px;
+  font-family: "Font Awesome 5 Free";
   position: relative;
 }
 
 @media (max-width: 767px) {
   .section-header__title {
     margin-bottom: 10px;
+    font-family: "Font Awesome 5 Free";
   }
 }
 

@@ -13,7 +13,7 @@ export default function Game(props) {
           <div class="col-lg-6">
             <div class="section-header text-center">
               <h2 class="section-header__title">How to Play Game</h2>
-              <p>
+              <p class="section-header__title">
                 A Playing Card is a facility for certain types of gambling.
                 Playing Card are often built combined with hotels, resorts.
               </p>
@@ -29,7 +29,7 @@ export default function Game(props) {
                 <div class="badge badge--lg badge--round radius-50">01</div>
               </div>
               <div class="how-item__content">
-                <h4 class="title">Connect Wallet</h4>
+                <h4 class="title section-header__title">Connect Wallet</h4>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Game(props) {
                 <div class="badge badge--lg badge--round radius-50">02</div>
               </div>
               <div class="how-item__content">
-                <h4 class="title">Book a Card</h4>
+                <h4 class="title section-header__title">Book a Card</h4>
               </div>
             </div>
           </div>
@@ -56,7 +56,9 @@ export default function Game(props) {
                 <div class="badge badge--lg badge--round radius-50">03</div>
               </div>
               <div class="how-item__content">
-                <h4 class="title">Choose Betting Amount Click On Bet Now</h4>
+                <h4 class="title section-header__title">
+                  Choose Betting Amount Click On Bet Now
+                </h4>
               </div>
             </div>
           </div>
@@ -70,8 +72,8 @@ export default function Game(props) {
                 <div class="badge badge--lg badge--round radius-50">04</div>
               </div>
               <div class="how-item__content">
-                <h4 class="title">
-                  10 minute session will over and result will come
+                <h4 class="title section-header__title">
+                  8 minute session will over and result will come
                 </h4>
               </div>
             </div>
@@ -86,7 +88,9 @@ export default function Game(props) {
                 <div class="badge badge--lg badge--round radius-50">05</div>
               </div>
               <div class="how-item__content">
-                <h4 class="title">If you are winner click on withdrawal</h4>
+                <h4 class="title section-header__title">
+                  If you are winner click on withdrawal
+                </h4>
               </div>
             </div>
           </div>

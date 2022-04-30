@@ -16,8 +16,9 @@ export default function Welcome(props) {
                 <span class="text--base"> YOUR LUCKY</span> CARDS{" "}
               </h1>
               <p class="banner-content__subtitle">
-                PLAY CARD AND EARN CRYPTO ONLINE. THE <br /> ULTIMATE ONLINE
-                PLAYING CARD PLATFORM.
+                PLAY CARD AND EARN CST TOKEN. THE ULTIMATE <br />
+                ONLINE PLAYING CARD PLATFORM. CATCH THE <br />
+                WINNING SPIRIT.
               </p>
 
               <img src="/card.png" alt="" class="shape1" />

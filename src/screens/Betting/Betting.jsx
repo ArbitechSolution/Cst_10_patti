@@ -203,7 +203,10 @@ function Betting({ selectedCard }) {
                   <div class="row gy-3">
                     <div class="main">
                       <div class="form-group">
-                        <label for="fname" class="form-label top">
+                        <label
+                          for="fname"
+                          class="section-header__title form-label top"
+                        >
                           Timer
                         </label>
                       </div>
@@ -224,35 +227,50 @@ function Betting({ selectedCard }) {
 
                     <div class="main">
                       <div class="form-group">
-                        <label for="uname" class="form-label">
+                        <label
+                          for="uname"
+                          class=" section-header__title form-label"
+                        >
                           Your Rewards
                         </label>
                       </div>
 
                       <div class="form-group">
-                        <label for="email" class="form-label">
-                          {userRewards} CST Coin
+                        <label
+                          for="email"
+                          class=" section-header__title form-label"
+                        >
+                          {userRewards} CST Token
                         </label>
                       </div>
                     </div>
 
                     <div class="main">
                       <div class="form-group">
-                        <label for="number" class="form-label">
+                        <label
+                          for="number"
+                          class="section-header__title form-label"
+                        >
                           My Wallet
                         </label>
                       </div>
 
                       <div class="form-group">
-                        <label for="addr" class="form-label">
-                          {mybalance} CST Coin
+                        <label
+                          for="addr"
+                          class="section-header__title form-label"
+                        >
+                          {mybalance} CST Token
                         </label>
                       </div>
                     </div>
 
                     <div class="main">
                       <div class="form-group">
-                        <label for="zip" class="form-label">
+                        <label
+                          for="zip"
+                          class="section-header__title form-label"
+                        >
                           Bet Amount
                         </label>
                       </div>
@@ -261,14 +279,17 @@ function Betting({ selectedCard }) {
                           ref={betAmount}
                           id="zip"
                           type="text"
-                          class="form-control form--control style-two "
+                          class="form-control form--control style-two  "
                           placeholder=""
                         />
                       </div>
 
                       <div class="form-group center">
-                        <label class="form-label" for="about">
-                          CST Coin
+                        <label
+                          class="form-label section-header__title"
+                          for="about"
+                        >
+                          CST Token
                         </label>
                       </div>
                     </div>
