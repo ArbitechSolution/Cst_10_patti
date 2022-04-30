@@ -158,6 +158,10 @@ function Betting({ selectedCard }) {
                     toast.success("Transaction Successfull");
                     loadWeb3();
                     setToggle(!toggle);
+                    let myBalnce = await tokenContract.methods.balanceOf(add).call();
+                    let convertedBalanc = await window.web3.utils.fromWei(myBalnce);
+                    convertedBalanc = parseFloat(convertedBalanc).toFixed(3);
+                    setMybalance(convertedBalanc);
                     betAmount.current.value = "";
                   })
                   .catch((e) => {
