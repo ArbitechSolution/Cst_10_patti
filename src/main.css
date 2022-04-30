@@ -4965,4 +4965,26 @@ span.psw {
     width: 100%;
   }
 }
+.resNav {
+  display: none;
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .resNav {
+    margin-top: 15px;
+    display: block;
+  }
+  .header-bottom {
+    display: none;
+  }
+  .accoutadd {
+    margin-top: 15px;
+    margin-right: 10px;
+    float: right;
+  }
+  #patti-logo {
+    width: 300px;
+    /* border: 2px solid red; */
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

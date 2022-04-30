@@ -62,6 +62,10 @@ const NavbarCustom = () => {
 
   return (
     <div class="header">
+      <div className="resNav">
+        <img src="/10PATTILOGO.png" alt="logo" id="patti-logo" width={50} />
+        <div className="btn btn-dark accoutadd">{btnText}</div>
+      </div>
       <div class="container">
         <div class="header-bottom">
           <div class="header-bottom-area align-items-center">
@@ -91,6 +95,8 @@ const NavbarCustom = () => {
         </div>
       </div>
     </div>
+
+    // here is  your code
   );
 };
 
