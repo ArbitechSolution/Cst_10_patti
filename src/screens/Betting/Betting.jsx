@@ -92,10 +92,10 @@ function Betting({ selectedCard }) {
           } else if (startTime == 600) {
             // console.log("Calling the Api");
             setTimercalcuate(false);
-            let myApiData = await axios.get(
-              "https://soulagic.com/Calculate_reward"
-            );
-            console.log("myApiData", myApiData);
+            // let myApiData = await axios.get(
+            //   "https://soulagic.com/Calculate_reward"
+            // );
+            // console.log("myApiData", myApiData);
           } else if (startTime >= 600) {
             setMinutes("10");
             setSeconds("00");
